@@ -22,21 +22,20 @@ ftsh [options] [command\_string | file]
 
 __OPTIONS__
 
-### Planned
-
 -c command read from first non option command string
+
 -i interactive shell
+
 -l login shell
+
 -s commands read from stdin
+
 -v print input line as they are read
+
 -x print command and their args as they are executed
+
 -- disable option processing, remaining arguments are treated as filenames and arguments. - is equivalent to --
 
-### Done
-
-__INVOCATION__
-
-TODO
 
 __DEFINITIONS__
 
