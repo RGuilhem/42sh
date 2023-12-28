@@ -1,10 +1,10 @@
-use std::env;
+use ftsh::settings::Settings;
 use std::io;
 use std::io::Write;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-    dbg!(args);
+    let settings = Settings::init();
+    dbg!(settings);
 
     loop {
         let mut input = String::new();
