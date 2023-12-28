@@ -14,5 +14,9 @@ fn main() {
             .read_line(&mut input)
             .expect("Failed to read input");
         print!("{}", input);
+        match input.trim() {
+            "exit" => break,
+            _ => (),
+        }
     }
 }
