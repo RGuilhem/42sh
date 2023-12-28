@@ -55,3 +55,7 @@ When unquoted separates words, one of those:
 control operator
 token parforming a control function, one of those:
 || & && ; ;; ;& ;;& ( ) | |& newline
+
+__GRAMMAR__
+
+List of important comcepts: Simple command, pipeline, lists, compound command, coprocess, shell function definition
