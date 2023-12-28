@@ -14,7 +14,7 @@ __NAME__
 
 __SYNOPSIS__
 
-    ftsh [options] [command\_string | file]
+ftsh [options] [command\_string | file]
 - [ ] options
 - [ ] command
 - [ ] file
