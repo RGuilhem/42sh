@@ -10,7 +10,7 @@
 
 __NAME__
 
-    ftsh - Forty two shell
+ftsh - Forty two shell
 
 __SYNOPSIS__
 
