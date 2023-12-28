@@ -1,4 +1,4 @@
-# FT_SH
+# FT\_SH
 
 ## TODO
 
@@ -10,6 +10,11 @@
 
 __NAME__
 
-ftsh - Forty two shell
+    ftsh - Forty two shell
 
 __SYNOPSIS__
+
+    ftsh [options] [command\_string | file]
+- [ ] options
+- [ ] command
+- [ ] file
