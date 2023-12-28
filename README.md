@@ -7,6 +7,8 @@
 - [ ] reading of options files
 - [ ] understand bash grammar
 
+man bash line 1800~= for info on execution
+
 ## Man page equivalent
 
 __NAME__
