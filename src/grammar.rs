@@ -18,3 +18,8 @@ enum Parameter {
     Positional(PositionalParam),
     Special(SpecialParam),
 }
+
+enum Word {
+    Name(String),
+    ControlOperator(String),
+}
