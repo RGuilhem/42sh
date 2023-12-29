@@ -35,6 +35,7 @@ impl ControlOperator {
     pub const PIPE: &'static str = "|";
 }
 
+#[derive(Debug)]
 pub enum Word {
     Name,
     ControlOperator,
