@@ -1,25 +1,41 @@
-struct VariableParam {
+pub struct VariableParam {
     name: String,
     value: String,
 }
 
-struct PositionalParam {
+pub struct PositionalParam {
     position: String,
     value: String,
 }
 
-struct SpecialParam {
+pub struct SpecialParam {
     identifier: String,
     value: String,
 }
 
-enum Parameter {
+pub enum Parameter {
     Variable(VariableParam),
     Positional(PositionalParam),
     Special(SpecialParam),
 }
 
-enum Word {
-    Name(String),
-    ControlOperator(String),
+pub enum Name {
+    Command(String),
+    Variable(String),
+    Builtin(String),
+}
+
+pub struct ControlOperator {}
+
+impl ControlOperator {
+    pub const OR: &'static str = "||";
+    pub const AND: &'static str = "&&";
+    pub const SEMICOLON: &'static str = ";";
+    pub const NEW_LINE: &'static str = "\n";
+    pub const PIPE: &'static str = "|";
+}
+
+pub enum Word {
+    Name,
+    ControlOperator,
 }
