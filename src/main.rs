@@ -15,7 +15,7 @@ fn main() {
             .read_line(&mut input)
             .expect("Failed to read input");
         print!("{}", input);
-        let tokens = parsing::tokenize_input(&input);
+        let tokens = parsing::tokenize_input(&input.trim());
         match input.trim() {
             "exit" => break,
             _ => (),
